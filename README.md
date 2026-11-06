@@ -1,5 +1,6 @@
 # SDR FCC Band Scanner
 Note: entirely built using Claude
+
 A terminal program that sweeps FCC-allocated frequency bands with a software-defined radio, detects signals above a noise floor, and shows them as a live, scrollable graph. Each signal is grouped under its band, labelled with the band's FCC allocation, and stamped with the last time it was seen. Results are also written to a text file as the scan runs.
 
 The program is **receive-only**. It reports RF energy and does not demodulate or decode any transmissions.
